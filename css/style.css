@@ -1,0 +1,112 @@
+/*Colors*/
+/*#00BC5F go green*/
+/*#0071A1 cg blue*/
+/*#F7F9F9 ghost white*/
+/*#087E8B metallic seaweed*/
+/*#FF5A5F pastel red (may need to tweak)*/
+
+@import url('https://fonts.googleapis.com/css?family=Armata|Righteous|Snippet');
+/*font-family: 'Righteous', cursive;
+font-family: 'Armata', sans-serif;
+font-family: 'Snippet', sans-serif;*/
+
+
+
+/*General and Global Styles*/
+/*------------------------------------*/
+body {
+    font-family: 'Righteous', cursive;;
+}
+
+
+.header-name,
+.header-job,
+.section-title {
+    font-family: 'Righteous', cursive;
+}
+
+.under-accent {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+.sub-section-title {
+    font-family: 'Armata', sans-serif;
+}
+
+
+.main-bg {
+    background-color: rgb(0, 179, 139);
+    color: #F7F9F9;
+}
+
+.sec-bg {
+    background-color: #283757;
+    color: #F7F9F9;
+}
+
+
+
+/*Header*/
+/*------------------------------------*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #283757;
+}
+
+
+.profile-picture {
+    max-width: 600px;
+    width: 85%;
+    margin: 1em auto;
+}
+
+.header-name {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.header-job {
+    font-size: 2em;
+}
+
+
+/*Profile*/
+/*------------------------------------*/
+
+.profile-section {
+    margin-top: 50px;
+}
+
+
+/*About*/
+/*------------------------------------*/
+
+.about-content {
+    font-size: 1.5em;
+}
+
+
+
+/*Skills*/
+/*------------------------------------*/
+
+.skill-title {
+    margin-bottom: 0;
+}
+
+.skill-highlight {
+    height: 2.5em;
+    border: 2px solid #00DB7B;
+    padding: 6px 0 21px 0;
+    margin: 1em auto;
+    border-radius: 8px;
+    color: #00DB7B;
+    font-weight: bold;
+    transition: background-color .5s;
+}
+
+.skill-highlight:hover {
+    background: #2C6689;
+}
