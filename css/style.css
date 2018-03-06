@@ -18,9 +18,10 @@ font-family: 'Snippet', sans-serif;*/
     background-color: rgba(0, 0, 0, 0.2); /* Black background color */
     position: fixed; /* /fixed */
     top: 0; /* Stay on top */
-    width: 100%; /* Full width */
+    max-width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 1;
+
 }
 
 /* Style the navbar links */
@@ -52,9 +53,10 @@ font-family: 'Snippet', sans-serif;*/
 /*Add break point for the medium -> lg bg*/
 .bg-main {
     background: url("../images/bg-key-md.jpeg") no-repeat;
-    height: 100vh;
+    min-height: 120vh;
     background-position: center;
     background-size: cover;
+    /*min-width: 100vw;*/
 }
 
 /*Main Section*/
