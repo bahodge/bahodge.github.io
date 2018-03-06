@@ -18,7 +18,7 @@ font-family: 'Snippet', sans-serif;*/
     background-color: rgba(0, 0, 0, 0.2); /* Black background color */
     position: fixed; /* /fixed */
     top: 0; /* Stay on top */
-    max-width: 100%; /* Full width */
+    width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 1;
 
@@ -56,7 +56,7 @@ font-family: 'Snippet', sans-serif;*/
     min-height: 120vh;
     background-position: center;
     background-size: cover;
-    /*min-width: 100vw;*/
+    max-width: 95vw;
 }
 
 /*Main Section*/
