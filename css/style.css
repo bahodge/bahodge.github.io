@@ -1,112 +1,101 @@
 /*Colors*/
-/*#00BC5F go green*/
-/*#0071A1 cg blue*/
-/*#F7F9F9 ghost white*/
-/*#087E8B metallic seaweed*/
-/*#FF5A5F pastel red (may need to tweak)*/
+/*#93B7BE - Pewter Blue*/
+/*#554348 - Purple Taupe*/
+/*#D4F5F5 - Azurish White*/
+/*#8C9A9E - Spanish Gray*/
+/*#747578 - Sonic Silver*/
 
+
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Armata|Righteous|Snippet');
 /*font-family: 'Righteous', cursive;
 font-family: 'Armata', sans-serif;
 font-family: 'Snippet', sans-serif;*/
 
 
-
-/*General and Global Styles*/
-/*------------------------------------*/
-body {
-    font-family: 'Righteous', cursive;;
+/*Navigation Bar*/
+.navigation-bar-main {
+    background-color: rgba(0, 0, 0, 0.2); /* Black background color */
+    position: fixed; /* /fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 1;
 }
 
-
-.header-name,
-.header-job,
-.section-title {
-    font-family: 'Righteous', cursive;
+/* Style the navbar links */
+.navigation-bar-main a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    transition: background-color .4s, color 1s, border 1s;
 }
 
-.under-accent {
-    margin-top: 0;
-    margin-bottom: 1.5em;
+.navigation-bar-main a:hover {
+    background-color: #b7b7b7;
+    color: black;
+    border: 1px solid white;
 }
 
-.sub-section-title {
-    font-family: 'Armata', sans-serif;
-}
-
-
-.main-bg {
-    background-color: rgb(0, 179, 139);
-    color: #F7F9F9;
-}
-
-.sec-bg {
-    background-color: #283757;
-    color: #F7F9F9;
-}
-
-
-
-/*Header*/
-/*------------------------------------*/
-
-.navbar {
+.navigation-bar {
     margin-bottom: 0;
-    background-color: #283757;
+    font-size: 1em;
+}
+/*Navigation bar img*/
+.img-logo {
+    width: 40px;
+}
+
+/*!*Main Background*! */
+/*Add break point for the medium -> lg bg*/
+.bg-main {
+    background: url("../images/bg-key-md.jpeg") no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Main Section*/
+main {
+    color: white;
+}
+
+/*Title section*/
+.title-section {
+    position: relative;
+    top: 35vh;
+}
+
+@media screen and (min-width: 768px) {
+
+    /*Navigation Bar*/
+    .navigation-bar {
+        font-size: 1.3em;
+    }
+
+    /*Title/Main Section*/
+    .title-section {
+        top: 20vh;
+        transition: top 2s;
+    }
+
+
+}
+
+@media screen and (min-width: 970px) {
+
+    /*Navigation Bar*/
+    .navigation-bar {
+        font-size: 1.7em;
+    }
+    .img-logo {
+        width: 69px;
+    }
+
+
 }
 
 
-.profile-picture {
-    max-width: 600px;
-    width: 85%;
-    margin: 1em auto;
-}
 
-.header-name {
-    font-size: 2.5em;
-    margin-top: 0;
-}
-
-.header-job {
-    font-size: 2em;
-}
-
-
-/*Profile*/
-/*------------------------------------*/
-
-.profile-section {
-    margin-top: 50px;
-}
-
-
-/*About*/
-/*------------------------------------*/
-
-.about-content {
-    font-size: 1.5em;
-}
-
-
-
-/*Skills*/
-/*------------------------------------*/
-
-.skill-title {
-    margin-bottom: 0;
-}
-
-.skill-highlight {
-    height: 2.5em;
-    border: 2px solid #00DB7B;
-    padding: 6px 0 21px 0;
-    margin: 1em auto;
-    border-radius: 8px;
-    color: #00DB7B;
-    font-weight: bold;
-    transition: background-color .5s;
-}
-
-.skill-highlight:hover {
-    background: #2C6689;
-}
