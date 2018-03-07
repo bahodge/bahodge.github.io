@@ -46,17 +46,15 @@ font-family: 'Snippet', sans-serif;*/
 }
 /*Navigation bar img*/
 .img-logo {
-    width: 40px;
+    width: 100px;
+    position: relative;
+    top: 20vh;
 }
 
+
 /*!*Main Background*! */
-/*Add break point for the medium -> lg bg*/
 .bg-main {
-    background: url("../images/bg-key-md.jpeg") no-repeat;
-    min-height: 120vh;
-    background-position: center;
-    background-size: cover;
-    max-width: 95vw;
+    background: url("../images/bg-key-md.jpeg") no-repeat center center fixed;
 }
 
 /*Main Section*/
@@ -64,11 +62,24 @@ main {
     color: white;
 }
 
-/*Title section*/
-.title-section {
-    position: relative;
-    top: 35vh;
+/*Portfolio Thumbnails Small*/
+.portfolio-thumbnail {
+    width: 90%;
+    border: 2px solid white;
+    margin-bottom: 2em;
 }
+
+.portfolio-thumbnail:hover {
+    opacity: .7;
+}
+
+#content-render {
+    position: relative;
+    top: 25vh;
+
+}
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -77,10 +88,9 @@ main {
         font-size: 1.3em;
     }
 
-    /*Title/Main Section*/
-    .title-section {
-        top: 20vh;
-        transition: top 2s;
+    .img-logo {
+        position: static;
+        top: 0;
     }
 
 
@@ -96,7 +106,9 @@ main {
         width: 69px;
     }
 
-
+    .bg-main {
+        background: url("../images/bg-key-lg.jpeg") no-repeat center center fixed;
+    }
 }
 
 
