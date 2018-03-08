@@ -12,10 +12,14 @@
 font-family: 'Armata', sans-serif;
 font-family: 'Snippet', sans-serif;*/
 
+body {
+    font-family: 'Snippet', sans-serif;
+    font-size: 2em;
+}
 
 /*Navbar color*/
 .navbar-default {
-    background-color: #444444;
+    background-color: rgba(16, 20, 13, 0.85);
 }
 
 /*Brand and Text*/
@@ -23,15 +27,60 @@ font-family: 'Snippet', sans-serif;*/
     max-width: 50px;
 }
 
+/*Sets navbar text color*/
 .navbar-default .navbar-text {
-    color: #a4a4a4;
-    /*opacity: 1;*/
+    color: #6d58de;
+    font-family: 'Righteous', cursive;
 }
 
+/*Changes the color of the link text*/
+.navbar-default .navbar-nav>li>a {
+    color: blue;
+}
 
+.open .dropdown-menu>li>a {
+    color: blue;
+}
 
+/*Changes the background color of the liinks while they are being hovered over*/
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #53635e;
+}
 
+/*Main Section*/
+main {
+    color: white;
+}
 
+h1,
+h2,
+h3{
+    font-family: 'Righteous', cursive;
+}
 
+.spacer-section {
+    height: 300px;
+    width: 100%;
+    background-color: red;
+}
 
+.about-section {
+    height: 300px;
+    width: 100%;
+    background: url("../images/bg-key-sm.jpeg") no-repeat fixed center;
+    background-size: cover;
+}
 
+.project-section {
+    height: 300px;
+    width: 100%;
+    background: url("../images/bg-key-sm.jpeg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.contact-section {
+    height: 300px;
+    width: 100%;
+    background: url("../images/bg-key-sm.jpeg") no-repeat fixed center;
+    background-size: cover;
+}
