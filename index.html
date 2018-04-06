@@ -8,25 +8,177 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Dev Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
     <title>Ben Hodge</title>
 </head>
-<body class="bg-wrapper">
+<body>
+<nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="brand-logo" src="images/ben-logo-sm-2.png" alt="Ben Hodge"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="images/BenjaminHodge-Resume-March2018.pdf" download>Download Resume</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<header class="header container">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h1 class="">Ben Hodge</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h3>Web Developer</h3>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <div class="spacer"></div>
+
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-sm-offset-2 col-sm-8">
+                <h2 class="text-center">About</h2>
+                <p>In tandem with applying my technical acumen to solve real world challenges, I strive to cultivate meaningful relationships with everyone I meet. I am driven by shear internal will to succeed and see every failure as a chance to grow. I have proven myself resourceful in my quest for knowledge and experience true satisfaction when applying newly acquired skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+
+    <section id="skills" class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-center">Technical Skills</h2>
+                <div class="col-sm-6 text-center">
+                    <ul class="skill-list list-inline">
+                        <h4>Languages</h4>
+                        <li><i class="skill-icon devicon-html5-plain-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-css3-plain-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-javascript-plain colored"></i></li>
+                        <li><i class="skill-icon devicon-java-plain-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-csharp-plain-wordmark colored"></i></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <ul class="skill-list list-inline">
+                        <h4>Frameworks/Libraries</h4>
+                        <li><i class="skill-icon devicon-nodejs-plain-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-express-original-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-jquery-plain-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-bootstrap-plain-wordmark colored"></i></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <ul class="skill-list list-inline">
+                        <h4>Databases</h4>
+                        <li><i class="skill-icon devicon-mysql-plain-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-mongodb-plain-wordmark colored"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section id="portfolio" class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="box center-block"></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="box center-block"></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="box center-block"></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="box center-block"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section id="education" class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Education</h2>
+            </div>
+            <div class="col-sm-6 text-center">
+                <a href="https://www.codeup.com" target="_blank"><img class="education-logo" src="images/codeup-logo.png" alt="Codeup"></a>
+                <!--<h4>Codeup</h4>-->
+                <ul class="list-inline">
+                    <li class="education-li">Certificate of Completion</li>
+                    <li class="education-li">Full Stack Web Developer - Java</li>
+                    <li class="education-li">May 2018</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 text-center">
+                <a href="https://www.fullsail.edu/" target="_blank"><img class="education-logo" src="images/fullsail-logo.png" alt="Full Sail University"></a>
+                <!--<h4>Full Sail University</h4>-->
+                <ul class="list-inline">
+                    <li class="education-li">Bachelor of Science</li>
+                    <li class="education-li">Game Design</li>
+                    <li class="education-li">June 2017</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+<div class="spacer"></div>
+
+    <section id="contact" class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Contact Me</h2>
+                <ul class="list-inline">
+                    <li class="contact-li"><a href="">LinkedIn</a></li>
+                    <li class="contact-li"><a href=""><i class="devicon-github-plain-wordmark colored"></i></a></li>
+                    <li class="contact-li"><a href="">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
 
 
 
-
-
-
-</body>
-    <!--jQuery 3.2.1-->
+<!--</main>-->
 <script src="js/jquery-3.3.1.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <!--Custom JavaScript-->
 <script src="js/script.js"></script>
-
 </body>
+<!--jQuery 3.2.1-->
 </html>

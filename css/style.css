@@ -12,9 +12,84 @@
 font-family: 'Armata', sans-serif;
 font-family: 'Snippet', sans-serif;*/
 
-
-.bg-wrapper {
-    background: url("../images/bg-mtn-lg.jpeg") no-repeat center fixed;
-    background-size: cover;
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    background-color: #e4e4e4;
+}
+
+/*NavBar*/
+
+.navbar-default {
+    background: #1b6d85;
+}
+.navbar-default .navbar-nav>li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+.brand-logo {
+    max-width: 50px;
+}
+
+
+
+/*Header*/
+.header {
+    margin-top: 70px;
+}
+
+/*Main*/
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.spacer {
+    margin: 25px auto;
+    height: 30px;
+    background: white;
+}
+
+.spacer-sm {
+    margin: 10px auto;
+    height: 10px;
+    background: white;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-icon {
+    font-size: 5em;
+}
+.skill-icon:hover {
+    text-decoration: underline;
+}
+
+
+.box {
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+/*Education*/
+.education-logo {
+    max-height: 200px;
+}
+
+/*Contact*/
+.contact-li {
+    margin: 10px 3em;
+}
