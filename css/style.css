@@ -75,6 +75,10 @@ section {
     text-decoration: underline;
 }
 
+/*Portfolio*/
+.project-gif {
+    max-width: 450px;
+}
 
 .box {
     max-width: 500px;
