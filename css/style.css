@@ -64,7 +64,7 @@ header {
 
 .name{
     font-size: 5em;
-    color: #4b6377;
+    color: #2f5c68;
     position: relative;
     top: 150px;
     margin-bottom: 0;
@@ -81,8 +81,9 @@ section {
 }
 
 .section-title>h2 {
+    text-decoration: underline;
     font-size: 5em;
-    color: #547396;
+    color: #fff8fa;
     margin-bottom: 0;
 }
 
