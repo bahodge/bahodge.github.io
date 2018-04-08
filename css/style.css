@@ -17,50 +17,104 @@ html {
 }
 
 body {
-    background-color: #e4e4e4;
+    background-color: rgba(181, 199, 207, 0.74);
+    font-family: 'Armata', sans-serif;
+    color: #4b6377;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Righteous', cursive;
+    margin-bottom: 1.5em;
 }
 
 /*NavBar*/
+.navbar {
+    font-family: 'Righteous', sans-serif;;
+}
 
 .navbar-default {
     background: #1b6d85;
+    border: none;
 }
 .navbar-default .navbar-nav>li a {
     color: white;
 }
 
-.navbar-default .navbar-nav>li a:hover{
-    color: yellow;
-    font-weight: bold;
+.navbar-default .navbar-nav>li a:hover, .brand-logo:hover{
+    font-weight: bolder;
+    background-color: #409fc9;
+    color: #f86d39;
+    transition: color .5s, background-color .5s;
 }
 
 .brand-logo {
     max-width: 50px;
 }
 
-
-
 /*Header*/
-.header {
-    margin-top: 70px;
+.name{
+    font-size: 5em;
+    color: #4b6377;
+    position: relative;
+    top: 150px;
+    margin-bottom: 0;
 }
 
 /*Main*/
 section {
-    padding-top: 70px;
+    padding-top: 0;
     padding-bottom: 70px;
 }
 
-.spacer {
-    margin: 25px auto;
-    height: 30px;
-    background: white;
+hr {
+    color: red;
+    border: 1px solid red;
 }
 
-.spacer-sm {
-    margin: 10px auto;
-    height: 10px;
-    background: white;
+.section-title {
+    position: relative;
+    bottom: 175px;
+}
+
+.section-title>h2 {
+    font-size: 5em;
+    color: white;
+    margin-bottom: 0;
+}
+
+.spacer-1 {
+    height: 500px;
+    background: url("../media/images/bg-mtn-lg.jpeg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.spacer-2 {
+    height: 300px;
+    background: url("../media/images/bg-key-lg.jpeg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.spacer-3 {
+    height: 300px;
+    background: url("../media/images/bg-code-md.jpeg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.spacer-4 {
+    height: 300px;
+    background: url("../media/images/bg-education-lg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.spacer-5 {
+    height: 300px;
+    background: url("../media/images/bg-bear-lg.jpeg") no-repeat center fixed;
+    background-size: cover;
 }
 
 .skill-list {
@@ -73,22 +127,30 @@ section {
 }
 
 /*Portfolio*/
+.project {
+    margin-bottom: 50px;
+}
+
 .project-gif {
     max-width: 95%;
     max-height: 80%;
 }
 
-.box {
-    max-width: 500px;
-    width: 100%;
-    height: 300px;
-    border: 1px solid black;
-    margin-bottom: 50px;
+.project-description {
+    margin-top: 95px;
+}
+
+h4 {
+    margin-top: 1.5em;
 }
 
 /*Education*/
 .education-logo {
     max-height: 200px;
+}
+
+.education-li {
+    font-size: 1.5em;
 }
 
 /*Contact*/
@@ -98,4 +160,29 @@ section {
 
 .contact-icon {
     width: 50px;
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+    .project-description {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .name {
+        font-size: 1.5em;
+    }
+
+    .section-title>h2 {
+        font-size: 3em;
+    }
+
+    .project-description {
+        margin-top: 10px;
+    }
+
 }

@@ -42,41 +42,31 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<header class="header container">
-    <div class="row">
-        <div class="col-xs-12 text-center">
-            <h1 class="">Ben Hodge</h1>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 text-center">
-                <h3>Web Developer</h3>
-            </div>
-        </div>
-    </div>
+<header class="header container text-center">
+    <h1 class="name">Ben Hodge | Web Developer</h1>
 </header>
 
+<div id="about" class="spacer-1"></div>
+<div class="container section-title text-center"><h2>About</h2></div>
 
-    <div class="spacer"></div>
-
-    <section id="about" class="container">
+    <section class="container">
         <div class="row">
             <div class="col-sm-offset-2 col-sm-8 text-center">
-                <h2>About</h2>
                 <p>In tandem with applying my technical acumen to solve real world challenges, I strive to cultivate meaningful relationships with everyone I meet. I am driven by shear internal will to succeed and see every failure as a chance to grow. I have proven myself resourceful in my quest for knowledge and experience true satisfaction when applying newly acquired skills.</p>
             </div>
         </div>
     </section>
 
-    <div class="spacer"></div>
+    <div id="skills" class="spacer-2"></div>
+    <div class="container section-title text-center"><h2>Technical Skills</h2></div>
 
 
-    <section id="skills" class="container">
+    <section class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 class="text-center">Technical Skills</h2>
                 <div class="col-sm-6 text-center">
                     <ul class="skill-list list-inline">
-                        <h4>Languages</h4>
+                        <h3>//Languages</h3>
                         <li><i class="skill-icon devicon-html5-plain-wordmark colored"></i></li>
                         <li><i class="skill-icon devicon-css3-plain-wordmark colored"></i></li>
                         <li><i class="skill-icon devicon-javascript-plain colored"></i></li>
@@ -86,16 +76,16 @@
                 </div>
                 <div class="col-sm-6 text-center">
                     <ul class="skill-list list-inline">
-                        <h4>Frameworks/Libraries</h4>
+                        <h3>//Frameworks/Libraries</h3>
                         <li><i class="skill-icon devicon-nodejs-plain-wordmark colored"></i></li>
-                        <li><i class="skill-icon devicon-express-original-wordmark colored"></i></li>
+                        <li><i class="skill-icon devicon-express-original"></i></li>
                         <li><i class="skill-icon devicon-jquery-plain-wordmark colored"></i></li>
                         <li><i class="skill-icon devicon-bootstrap-plain-wordmark colored"></i></li>
                     </ul>
                 </div>
                 <div class="col-sm-12 text-center">
                     <ul class="skill-list list-inline">
-                        <h4>Databases</h4>
+                        <h3>//Databases</h3>
                         <li><i class="skill-icon devicon-mysql-plain-wordmark colored"></i></li>
                         <li><i class="skill-icon devicon-mongodb-plain-wordmark colored"></i></li>
                     </ul>
@@ -104,69 +94,77 @@
         </div>
     </section>
 
-    <div class="spacer"></div>
+    <div id="portfolio" class="spacer-3"></div>
+    <div class="container section-title text-center"><h2>Portfolio</h2></div>
 
 
-    <section id="portfolio" class="container">
-<!--TODO Gif on the left with description on the right-->
+    <section class="container">
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <h2>Portfolio</h2>
-            </div>
-            <div class="row">
+            <div class="row project">
                 <div class="col-xs-12 col-md-6">
-                    <h3 class="text-center">Contacts Manager</h3>
+                    <h2 class="text-center">//Contacts Manager</h2>
                     <img class="project-gif center-block" src="media/gif/contacts-manager-4.gif" alt="Contacts Manager">
                 </div>
-                <div class="col-xs-12 col-md-6">
-                    <p>This project was written in Java 9 and writes responses to the console. This project highlights persistent data storage on a simple text file. Contacts are written, read and deleted from this file using the commands provided through the terminal. Using a delimiter, we can store and retrieve individual contacts and write them to the console.</p>
+                <div class="col-xs-12 col-md-6 project-description">
+                    <p >This project was written in Java 9 and writes responses to the console. This project highlights persistent data storage on a simple text file. This project does not use a database as would typically be used instead, contacts are written, read and deleted from this file using the commands provided through the terminal. Using a delimiter, we can store and retrieve individual contacts and write them to the console.</p>
                     <ul class="list-inline text-center">
-                        <h4>Tech Used</h4>
+                        <h3>//Tech Used</h3>
                         <li><i class="skill-icon devicon-java-plain-wordmark colored"></i></li>
                     </ul>
                 </div>
+
+            </div>
+            <div class="row">
+                <h2 class="text-center">/*---*/</h2>
             </div>
 
-            <div class="row">
+
+
+            <div class="row project">
                 <div class="col-xs-12 col-md-6">
-                    <h3 class="text-center">Weather Map Application</h3>
+                    <h2 class="text-center">//Weather Map Application</h2>
                     <img class="project-gif center-block"  src="media/gif/weather-api-project.gif" alt="Weather application">
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 project-description">
                     <p>This application focuses less on the aesthetics and more on the functionality. Highlighting my skills with using jQuery AJAX requests, JavaScript and using both the Google Maps API and Open Weather Map API. Each request made by jQuery is first send to the Google Maps API to retrieve the geocode for the nearest city to either the searched city or clicked location. Google Maps interprets and returns the location. A new AJAX request is sent to the Open Weather Map API using latitude and longitude. The request returns a JSON object which is parsed and subsequently rendered to the page.</p>
                     <ul class="list-inline text-center">
-                        <h4>Tech Used</h4>
+                        <h3>//Tech Used</h3>
                         <li><i class="skill-icon devicon-javascript-plain colored"></i></li>
                         <li><i class="skill-icon devicon-jquery-plain colored"></i></li>
                     </ul>
                 </div>
             </div>
-
             <div class="row">
+                <h2 class="text-center">/*---*/</h2>
+            </div>
+
+            <div class="row project">
                 <div class="col-xs-12 col-md-6">
-                    <h3 class="text-center">Coffee Application</h3>
+                    <h2 class="text-center">//Coffee Application</h2>
                     <img class="project-gif center-block" src="media/gif/coffee-project.gif" alt="Coffee Project">
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 project-description">
                     <p>This project highlights the use of JavaScript. Users are presented with a list of coffee names with roast types. Allowing users to live search through each coffee. Users can limit their results by selecting the roast type which cycles through an array and renders it to the screen. Finally, users are able to add new coffees to the list along with a roast type. The newly added coffee can also be searched for.</p>
                     <ul class="list-inline text-center">
-                        <h4>Tech Used</h4>
+                        <h3>//Tech Used</h3>
                         <li><i class="skill-icon devicon-javascript-plain colored"></i></li>
                         <li><i class="skill-icon devicon-jquery-plain colored"></i></li>
+                        <li><i class="skill-icon devicon-bootstrap-plain colored"></i></li>
                     </ul>
                 </div>
+            </div>
+            <div class="row">
+                <h2 class="text-center">/*---*/</h2>
             </div>
 
         </div>
     </section>
 
-    <div class="spacer"></div>
+<div id="education" class="spacer-4"></div>
+<div class="container section-title text-center"><h2>Education</h2></div>
 
-    <section id="education" class="container">
+    <section class="container">
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <h2>Education</h2>
-            </div>
             <div class="col-sm-6 text-center">
                 <a href="https://www.codeup.com" target="_blank"><img class="education-logo" src="media/images/codeup-logo.png" alt="Codeup"></a>
                 <!--<h4>Codeup</h4>-->
@@ -186,18 +184,17 @@
                 </ul>
             </div>
         </div>
-
     </section>
 
-<div class="spacer"></div>
+<div id="contact" class="spacer-5"></div>
+<div class="container section-title text-center"><h2>Contact Me</h2></div>
 
-    <section id="contact" class="container">
+    <section class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h2>Contact Me</h2>
                 <ul class="list-inline">
-                    <li class="contact-li"><a href=""><img class="contact-icon" src="media/images/linkedin.png" alt="LinkedIn"></a></li>
-                    <li class="contact-li"><a href=""><img class="contact-icon" src="media/images/github.png" alt="Github"></a></li>
+                    <li class="contact-li"><a href="https://www.linkedin.com/in/benjamin-a-hodge"><img class="contact-icon" src="media/images/linkedin.png" alt="LinkedIn"></a></li>
+                    <li class="contact-li"><a href="https://www.github.com/bahodge"><img class="contact-icon" src="media/images/github.png" alt="Github"></a></li>
                     <li class="contact-li"><a href="mailto:benjamin.andrew.hodge@gmail.com"><img class="contact-icon" src="media/images/email.png" alt="email"></a></li>
                 </ul>
             </div>
