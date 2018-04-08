@@ -57,6 +57,11 @@ h6 {
 }
 
 /*Header*/
+header {
+    padding: 0 auto;
+    height: 0;
+}
+
 .name{
     font-size: 5em;
     color: #4b6377;
@@ -70,12 +75,6 @@ section {
     padding-top: 0;
     padding-bottom: 70px;
 }
-
-hr {
-    color: red;
-    border: 1px solid red;
-}
-
 .section-title {
     position: relative;
     bottom: 175px;
@@ -83,7 +82,7 @@ hr {
 
 .section-title>h2 {
     font-size: 5em;
-    color: white;
+    color: #547396;
     margin-bottom: 0;
 }
 
@@ -171,6 +170,18 @@ h4 {
     }
 
 }
+
+@media screen and (max-width: 700px) {
+    h3,
+    h4 {
+        font-size: 1.5em;
+    }
+
+    .name {
+        font-size: 3em;
+    }
+}
+
 
 @media screen and (max-width: 350px) {
     .name {
