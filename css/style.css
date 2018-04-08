@@ -128,9 +128,11 @@ section {
 /*Portfolio*/
 .project {
     margin-bottom: 50px;
+    padding: 0;
 }
 
 .project-gif {
+    width: 500px;
     max-width: 95%;
     max-height: 80%;
 }
@@ -145,7 +147,7 @@ h4 {
 
 /*Education*/
 .education-logo {
-    max-height: 200px;
+    width: 80%;
 }
 
 .education-li {
@@ -174,7 +176,7 @@ h4 {
 @media screen and (max-width: 700px) {
     h3,
     h4 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .name {
