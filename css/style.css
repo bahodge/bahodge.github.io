@@ -71,13 +71,11 @@ section {
 .skill-icon {
     font-size: 5em;
 }
-.skill-icon:hover {
-    text-decoration: underline;
-}
 
 /*Portfolio*/
 .project-gif {
-    max-width: 450px;
+    max-width: 95%;
+    max-height: 80%;
 }
 
 .box {
@@ -96,4 +94,8 @@ section {
 /*Contact*/
 .contact-li {
     margin: 10px 3em;
+}
+
+.contact-icon {
+    width: 50px;
 }
