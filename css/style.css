@@ -89,19 +89,19 @@ section {
 
 .spacer-1 {
     height: 500px;
-    background: url("../media/images/bg-mtn-lg.jpeg") no-repeat center fixed;
+    background: url("../media/images/bg-mtn-lg.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
 .spacer-2 {
     height: 300px;
-    background: url("../media/images/bg-key-lg.jpeg") no-repeat center fixed;
+    background: url("../media/images/bg-key-lg.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
 .spacer-3 {
     height: 300px;
-    background: url("../media/images/bg-code-md.jpeg") no-repeat center fixed;
+    background: url("../media/images/bg-code-md.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -113,7 +113,7 @@ section {
 
 .spacer-5 {
     height: 300px;
-    background: url("../media/images/bg-bear-lg.jpeg") no-repeat center fixed;
+    background: url("../media/images/bg-bear-lg.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
